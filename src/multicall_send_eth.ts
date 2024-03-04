@@ -31,7 +31,7 @@
             entrypoint: 'transfer',
             calldata: CallData.compile({
                 recipient:"0x03E64bb02F1Bf09825079ed786A827995F386734F1EDfA5fBd4Da169979C015a", //接收者地址
-                amount: cairo.uint256(100000000000000000n), //0.1 ETH
+                amount: cairo.uint256(10000000000000000n), //0.01 ETH
             }),
             },
             // // Calling the second contract
@@ -39,16 +39,16 @@
                 contractAddress: ethAddress,
                 entrypoint: 'transfer',
                 calldata: CallData.compile({
-                    recipient:"0x03E64bb02F1Bf09825079ed786A827995F386734F1EDfA5fBd4Da169979C015a",//接收者地址
-                    amount: cairo.uint256(100000000000000000n),
+                    recipient:"0x00392b5b36423966738c091D282cbe079470b4905C73e50BaC39aDaa5cDD2c6e",//接收者地址
+                    amount: cairo.uint256(10000000000000000n),
                 }),
             },
             {
                 contractAddress: ethAddress,
                 entrypoint: 'transfer',
                 calldata: CallData.compile({
-                    recipient:"0x03E64bb02F1Bf09825079ed786A827995F386734F1EDfA5fBd4Da169979C015a",//接收者地址
-                    amount: cairo.uint256(100000000000000000n),
+                    recipient:"0x0725615d41FFf731bC1840AA2c35bc82e09C5999BdA24985Be2609B27a46d47b",//接收者地址
+                    amount: cairo.uint256(10000000000000000n),
                 }),
             },
         ]);
